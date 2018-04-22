@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'Josefin Slab';
+    font-style: normal;
+    font-weight: 600;
+    src: url(../fonts/font.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+body {
+    padding: 0;
+    background-color: rgb(92, 193, 175);
+}
+.container {
+    font: 16px 'Josefin Slab';
+    max-width: 960px;
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: #000;
+}
+.container h3 {
+    margin: 5px 0px;
+}
+.container .item_weight, .container .item_price {
+    line-height: 1.5em;
+}
+.container .item_box {
+    min-width: 150px;
+}
+.container_basket {
+    font: 16px 'Josefin Slab';
+    max-width: 960px;
+    margin: 80px auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.container button {
+    text-decoration:none;
+    text-align:center;
+    padding:5px 20px;
+    border:solid 1px #004F72;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius: 4px;
+    font:12px Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    color:#e1f7f7;
+    background-color:#b0a761;
+    background-image: -moz-linear-gradient(top, #b0a761 0%, #86adba 100%);
+    background-image: -webkit-linear-gradient(top, #b0a761 0%, #86adba 100%);
+    background-image: -o-linear-gradient(top, #b0a761 0%, #86adba 100%);
+    background-image: -ms-linear-gradient(top, #b0a761 0% ,#86adba 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#86adba', endColorstr='#86adba',GradientType=0 );
+    background-image: linear-gradient(top, #b0a761 0% ,#86adba 100%);
+    -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+    -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;
+    box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+}
+
+.container_basket button {
+    width: 140px;
+    height: 22px;
+}
+
+
+
