@@ -78,6 +78,7 @@ function addToCart(e) {
 
 for(var i = 0; i < itemBox.length; i++){
     addEvent(itemBox[i].querySelector('.add_item'), 'click', addToCart);
+    addEvent(itemBox[i].querySelector('.add_item'), 'click', openCart);
 }
 
 function openCart(e){
